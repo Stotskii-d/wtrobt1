@@ -7,7 +7,7 @@ if os.path.exists(dotenv_path):
     load_dotenv(dotenv_path)
 
 # Loading token from .env
-TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
+TELEGRAM_BOT_TOKEN = os.getenv("7805753992:AAG891Gnb9W6fZQPqqrhfea-gi5rMYcQ3Hg")
 
 # Mysql
 MYSQL_HOST = os.getenv("MYSQL_HOST", None)  # if none, use sqlite db
